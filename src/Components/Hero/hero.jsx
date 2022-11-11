@@ -1,5 +1,4 @@
 import React from 'react'
-import styles from "./hero.module.css"
 import Lady from "../../assets/lady.png"
 import Girl from "../../assets/girl.png"
 import Arrow from "../../assets/Arrow.png"
