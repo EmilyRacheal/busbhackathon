@@ -18,7 +18,7 @@ function Navbar() {
         <div className="flex justify-between items-center w-11/12 ">
           <div className="flex items-start w-full sm:w-[unset] sm:items-center flex-col sm:flex-row gap-x-20">
             <div className="w-full flex justify-between items-center">
-              <h1 className="text-[#FF811D] text-[24px] px-[3%] sm:px-0 font-semibold">
+              <h1 className="text-[#FF811D] text-[24px] px-[3%] sm:px-0 cursor-pointer font-semibold">
                 BUSB
               </h1>
 
@@ -31,7 +31,7 @@ function Navbar() {
 
             <ul
               ref={menuRef}
-              className="sm:flex hidden mt-4 sm:mt-0 gap-x-10 text-[#0F0F0F] px-[3%] sm:px-0 text-[17px] sm:flex-row flex-col"
+              className="sm:flex cursor-pointer hidden mt-4 sm:mt-0 gap-x-10 text-[#0F0F0F] px-[3%] sm:px-0 text-[17px] sm:flex-row flex-col"
             >
               <li>Home</li>
               <li className="my-1 sm:my-0">Login</li>
@@ -41,14 +41,14 @@ function Navbar() {
                 <input
                   type="text"
                   placeholder="Search"
-                  className="outline-none"
+                  className="outline-none cursor-pointer"
                 />
                 <AiOutlineSearch />
               </li>
             </ul>
           </div>
           <div className="border border-gray-500 w-[40%] sm:flex items-center hidden justify-between px-4">
-            <input type="text" placeholder="Search" className="outline-none" />
+            <input type="text" placeholder="Search" className="outline-none cursor-pointer" />
             <AiOutlineSearch />
           </div>
         </div>
