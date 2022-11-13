@@ -12,12 +12,16 @@ function Featured() {
           </h1>
         </div>
 
-<div className="flex gap-x-7 flex-wrap">
-{cardData.map((items) => (
-          <FeatureCard img={items.img} name={items.name} title={items.title} body={items.body}/>
-        ))}
-</div>
-        
+        <div className="flex gap-x-7 flex-wrap">
+          {cardData.map((items) => (
+            <FeatureCard
+              img={items.img}
+              name={items.name}
+              title={items.title}
+              body={items.body}
+            />
+          ))}
+        </div>
       </div>
     </div>
   );
