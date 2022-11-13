@@ -4,6 +4,7 @@ import Navbar from '../../Components/Navbar/navbar'
 import Jobsearch from '../../Components/JobSearch/jobsearch'
 import Featured from '../../Components/Featured/featured'
 import HeroPage from "../../Components/HeroPage/index"
+import HowItWorks from '../../Components/HowItWorks/howItWorks'
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
         <Navbar />
         <HeroPage />
         <Jobsearch />
+        <HowItWorks />
         <Featured />
     </div>
   )
