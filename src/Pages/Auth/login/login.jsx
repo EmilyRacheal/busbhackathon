@@ -5,14 +5,14 @@ import { FcGoogle } from "react-icons/fc";
 function Signup() {
   return (
     <div>
-      <div className="w-full flex flex-col md:flex md:flex-row gap-y-10 h-screen">
+      <div className="w-full flex md:flex md:flex-row gap-y-10 md:h-screen flex-col-reverse">
         
         <div className="md:w-[60%] w-full flex flex-col justify-center items-center">
           <div className="flex justify-center flex-col items-center w-[90%] md:w-[55%] md:max-w-[600px]">
             <div className="flex flex-col justify-center items-center gap-y-3">
-              <h1 className="md:block hidden">Sign Up as an employee</h1>
+              <h1 className="md:block hidden md:text-[25px] text-lg font-medium">Sign Up as an employer</h1>
               <p className="flex items-center text-[#979797] text-sm gap-x-1">
-                Create account with{" "}
+                Create an account with{" "}
                 <FcGoogle className=" border-[#979797] border rounded-[50%]" />{" "}
               </p>
               <p className="text-[#979797]">----OR----</p>
@@ -71,7 +71,7 @@ function Signup() {
             Need a Job?
           </h1>
           <img src={Loginimage} alt="" srcset="" className="w-[200px] md:w-[80%]"/>
-          <p className="md:text-[20px]  text-sm text-white w-full max-w-[200px] md:max-w-[290px] md:pt-6 md:pb-5 text-center">
+          <p className="md:text-[20px]  text-sm text-white w-full max-w-[200px] md:max-w-[270px]  md:pt-6 md:pb-5 text-center">
             Sign up as an employee to get a job
           </p>
           <button className="hidden md:block border border-white w-full max-w-[260px] py-2 rounded-[30px] text-white text-[20px]">
