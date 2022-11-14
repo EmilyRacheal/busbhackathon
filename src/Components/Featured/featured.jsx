@@ -15,14 +15,13 @@ function Featured() {
         <div className="flex justify-between flex-wrap">
           {cardData.map((items) => (
             <div className="w-[23%]">
- <FeatureCard
-              img={items.img}
-              name={items.name}
-              title={items.title}
-              body={items.body}
-            />
+              <FeatureCard
+                img={items.img}
+                name={items.name}
+                title={items.title}
+                body={items.body}
+              />
             </div>
-           
           ))}
         </div>
       </div>
