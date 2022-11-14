@@ -1,11 +1,10 @@
 import React from 'react'
-import Layout from "../../../Components/Layout/Navbar/navbar"
+import Layout from "../../../Components/Layout/layout"
 
 function Employeedashboard() {
   return (
     <div>
         <Layout />
-        
     </div>
   )
 }
