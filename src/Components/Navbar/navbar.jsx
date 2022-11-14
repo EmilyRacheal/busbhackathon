@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import { AiOutlineSearch } from "react-icons/ai";
 import { BiMenu } from "react-icons/bi";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const menuRef = useRef();
@@ -34,8 +35,8 @@ function Navbar() {
               className="sm:flex cursor-pointer hidden mt-4 sm:mt-0 gap-x-10 text-[#0F0F0F] px-[3%] sm:px-0 text-[17px] sm:flex-row flex-col"
             >
               <li>Home</li>
-              <li className="my-1 sm:my-0">Login</li>
-              <li>Register</li>
+              <li className="my-1 sm:my-0"> <Link to="/signup">Login</Link> </li>
+              <li><Link to="/login">Register</Link> </li>
 
               <li className="border my-2 sm:hidden border-gray-500 w-full flex items-center justify-between px-4">
                 <input
