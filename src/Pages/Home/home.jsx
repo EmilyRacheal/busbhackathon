@@ -7,11 +7,13 @@ import HeroPage from "../../Components/HeroPage/index"
 import HowItWorks from '../../Components/HowItWorks/howItWorks'
 import Explore from "../../Components/Explore/explore"
 import Signup from '../Auth/signup/signup'
+import Login from "../Auth/login/login"
 
 function Home() {
   return (
     <div>
-      <Signup />
+      {/* <Signup /> */}
+      <Login />
         {/* <Navbar />
         <HeroPage />
         <Jobsearch />
