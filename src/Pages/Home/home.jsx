@@ -5,15 +5,19 @@ import Jobsearch from '../../Components/JobSearch/jobsearch'
 import Featured from '../../Components/Featured/featured'
 import HeroPage from "../../Components/HeroPage/index"
 import HowItWorks from '../../Components/HowItWorks/howItWorks'
+import Explore from "../../Components/Explore/explore"
+import Signup from '../Auth/signup/signup'
 
 function Home() {
   return (
     <div>
-        <Navbar />
+      <Signup />
+        {/* <Navbar />
         <HeroPage />
         <Jobsearch />
         <HowItWorks />
         <Featured />
+        <Explore/> */}
     </div>
   )
 }
