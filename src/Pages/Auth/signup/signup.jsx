@@ -5,12 +5,12 @@ import { FcGoogle } from "react-icons/fc";
 function Signup() {
   return (
     <div>
-      <div className="w-full flex flex-col md:flex md:flex-row gap-y-10">
+      <div className="w-full flex flex-col md:flex md:flex-row gap-y-10 h-screen">
         <div className="bg-black flex flex-col md:w-[40%] w-full justify-center items-center gap-x-10 py-10">
           <h1 className="text-white font-medium italic text-lg md:text-[36px]">
             Need Workers?
           </h1>
-          <img src={Signupimage} alt="" srcset="" className="w-[200px]"/>
+          <img src={Signupimage} alt="" srcset="" className="w-[200px] md:w-[80%]"/>
           <p className="md:text-[20px]  text-sm text-white w-full max-w-[200px] md:max-w-[290px] md:pt-6 md:pb-5 text-center">
             Sign up as an employer to recruit workers
           </p>
@@ -64,9 +64,12 @@ function Signup() {
                     />
                   </div>
                 </div>               
-                  <button className="mt-5 bg-black w-full max-w-[260px] py-2 rounded-[30px] text-white text-sm md:text-[20px]">
+                  <button className="mt-5 bg-black md:w-full md:max-w-[260px] w-[80%] py-2 rounded-[30px] text-white text-sm md:text-[20px]">
                     Register
                   </button>
+                  <button className="md:hidden block border border-black md:w-full md:max-w-[260px] w-[80%] py-2 rounded-[30px] text-black text-sm md:text-[20px]">
+            Sign Up as an Employee
+          </button>
                 <p className="text-[#979797] text-[12px]">
                   Already have an account?
                   <span className="text-[#FF811D]"> Login</span>{" "}
